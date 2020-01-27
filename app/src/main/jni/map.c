@@ -2664,8 +2664,8 @@ static const float map_colours[FOUR][3] = {
 #ifdef VIVID_COLOURS
     /* Use more vivid colours (e.g. on the Pocket PC) */
     /* cmb: modified for colour-blindness with http://www.color-blindness.com/coblis-color-blindness-simulator/ */
-    /* wfl: made COL_1 (green) darker and easier to distinguish from COL_3 (yellow) */
-    {0.627F, 0.157F, 0.133F},
+    /* wfl: made COL_0 (red) lighter, and COL_1 (green) darker and easier to distinguish from COL_3 (yellow) */
+    {0.627F, 0.350F, 0.350F}, /* wfl: was {0.627F, 0.157F, 0.133F} */
     {0.290F, 0.600F, 0.290F}, /* wfl: was {0.290F, 0.698F, 0.290F} */
     {0.322F, 0.690F, 0.788F},
     {0.710F, 0.698F, 0.098F},
