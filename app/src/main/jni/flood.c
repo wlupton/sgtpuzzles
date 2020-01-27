@@ -1001,8 +1001,9 @@ static float *game_colours(frontend *fe, int *ncolours)
     ret[COL_2 * 3 + 2] = 0.0F;
 
     /* green */
+    /* wfl: make green a bit darker */
     ret[COL_3 * 3 + 0] = 0.0F;
-    ret[COL_3 * 3 + 1] = 1.0F;
+    ret[COL_3 * 3 + 1] = 0.8F;
     ret[COL_3 * 3 + 2] = 0.0F;
 
     /* blue */
